@@ -67,7 +67,6 @@ hr{
     display: inline;
     vertical-align: top;
     font-size: 1rem;
-    /* line-height: 28px; */
 }
 
 .avatar img, 
@@ -87,10 +86,6 @@ a:hover{
   color:hsl(178, 100%, 50%);
 }
 
-/* img:hover{
-  background-image: url(/images/icon-view.svg);
-  position: relative;
-} */
 
 .avatartext{
   margin-top: 0;
@@ -104,10 +99,6 @@ footer{
 .mainImage {
   position: relative;
   width: 50%;
-}
-
-.Nftimage{
-  
 }
 
 .Nftimage {
