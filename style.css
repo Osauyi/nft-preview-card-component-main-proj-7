@@ -1,0 +1,150 @@
+body{
+  display: flex;
+background-color:  hsl(217, 54%, 11%);
+font-family: 'Outfit', sans-serif;
+min-height: 100vh;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+p{
+  font-size: 18px;
+  font-weight: 300;
+  color:  hsl(215, 51%, 70%);
+}
+
+h1{
+  color:  hsl(0, 0%, 100%);
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+
+h2{
+  color: hsl(178, 100%, 50%);
+  font-weight: 400;
+  font-size: 1rem;
+  margin-right: 77px;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(216, 50%, 16%);
+    width: 282px;
+  height: 475px;
+  border-radius: 15px;
+  text-align: left;
+  padding: 25px;
+  justify-content: space-between;
+  position: relative;
+}
+
+.avatarimage{
+  height: 35px;
+  border: 1px solid;
+  border-radius: 50%;
+  margin-right: 13px;
+  border-color:  hsl(0, 0%, 100%);
+}
+
+a{
+  text-decoration: none;
+  color:  hsl(0, 0%, 100%);
+}
+
+hr{
+  height:1px;
+  border-width: 1;
+    border: 1;
+    border-color: hsl(215, 32%, 27%);
+  width: 100%;               
+}
+
+#duration h2,
+#duration p {
+    display: inline;
+    vertical-align: top;
+    font-size: 1rem;
+    /* line-height: 28px; */
+}
+
+.avatar img, 
+.avatar p{
+  display: inline;
+    vertical-align: top;
+    font-size: 1rem;
+    line-height: 34px;
+}
+
+
+h1:hover{
+  color:hsl(178, 100%, 50%);
+}
+
+a:hover{
+  color:hsl(178, 100%, 50%);
+}
+
+/* img:hover{
+  background-image: url(/images/icon-view.svg);
+  position: relative;
+} */
+
+.avatartext{
+  margin-top: 0;
+}
+
+
+footer{
+  margin-top: 45px;
+}
+
+.mainImage {
+  position: relative;
+  width: 50%;
+}
+
+.Nftimage{
+  
+}
+
+.Nftimage {
+  opacity: 1;
+  display: block;
+  width: 280px;
+  height: 260px;
+  transition: .5s ease;
+  border-radius: 13px;
+  backface-visibility: hidden;
+}
+
+.iconimage {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  width: 280px;
+  height: 260px;
+  border-radius: 15px;
+}
+
+.mainImage:hover .Nftimage {
+  opacity: 0.3;
+}
+
+.mainImage:hover .iconimage {
+  opacity: 0.4;
+  background-color: hsl(178, 100%, 50%);
+  width: 280px;
+  height: 260px;
+}
+
+.icon{
+  margin-top: 108px;
+}
